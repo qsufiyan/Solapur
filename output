@@ -1,0 +1,589 @@
+    1  sudo su 
+    2  exit
+    3  ls
+    4  cat file
+    5  sudo su 
+    6  which git 
+    7  yum update -y 
+    8  yum install git -y
+    9  sudo yum install -y 
+   10  sudo yum install git -y 
+   11  which git 
+   12  mmdir git_practice
+   13  mkdir git_practice
+   14  ls
+   15  cat git_practice
+   16  cd git_practice
+   17  ls
+   18  pwd
+   19  git config --global --user.name "Sufiyan Qureshi"
+   20  git config --global user.name "Sufiyan Qureshi"
+   21  git config --list 
+   22  git config --global user.email "qsufiyan007@gmail.com"
+   23  git config --list
+   24  cp /home/ec2-user/file git_practice
+   25  ls
+   26  cat git_practice
+   27  mv git_practice file.txt
+   28  ls
+   29  cat file.txt
+   30  git init
+   31  git status
+   32  git add .
+   33  git statu
+   34  git status
+   35  git logs
+   36  git log
+   37  git commit -m "Myinfo" 
+   38  ls
+   39  git status
+   40  git log
+   41  git status 538b0ffa1c09e870fa70769b34c22d4cf7972828
+   42  git 538b0ffa1c09e870fa70769b34c22d4cf7972828
+   43  git log 538b0ffa1c09e870fa70769b34c22d4cf7972828
+   44  git shw
+   45  git show
+   46  git show 538b0ffa1c09e870fa70769b34c22d4cf7972828
+   47  git remote add origin https://github.com/qsufiyan/Gitpractice.git
+   48  git push -u origin master
+   49  git status
+   50  git log
+   51  git status
+   52  git show 
+   53  git log -1
+   54  git log -2
+   55  ls
+   56  rm file.txt
+   57  ls
+   58  git pull origin master 
+   59  git pull remote origin master 
+   60  git pull
+   61  git pull -u origin master 
+   62  cat >>new.txt
+   63  ls
+   64  git add .
+   65  git commit -m "Second Commit" 
+   66  git status
+   67  git push
+   68  git push -u origin master 
+   69  git push -u origin master
+   70  ls
+   71  dmidecode >raminfo
+   72  sudo dmidecode >raminfo
+   73  ls
+   74  cat raminfo
+   75  wc -l raminfo
+   76  wc -w raminfo
+   77  wc -c raminfo
+   78  git add .
+   79  git status
+   80  git commit -m "Device Ram Info" 
+   81  git show
+   82  git show d049d7ea948b49dd1106d4623584ac61cfd3c7cf 
+   83  git log -1
+   84  git log
+   85  git show 538b0ffa1c09e870fa70769b34c22d4cf7972828
+   86  git status
+   87  git push -u origin master 
+   88  ls
+   89  rm new.txt  raminfo
+   90  ls
+   91  git pull -u origin master 
+   92  git pull 
+   93  ls
+   94  git status 
+   95  git commit -m 
+   96  git commit
+   97  git pull origin master 
+   98  ls
+   99  cat > myfile
+  100  ls
+  101  git add .
+  102  git show 
+  103  git log
+  104  git commit -m "check"
+  105  git show 
+  106  git show fc63c7d17ae0db3818dea73272616a18d700f61d
+  107  git push origin master 
+  108  ls
+  109  git pull
+  110  ls
+  111   git config --list
+  112  ls
+  113  git pull -u origin master 
+  114  git pull origin master 
+  115  ls
+  116  cat myfile
+  117  cat >>myfile
+  118  git add .
+  119  git commit -m "third commit"
+  120  git push origin master 
+  121  git pull
+  122  ls
+  123  cat myfile
+  124  cat >myfile
+  125  ls
+  126  git add .
+  127  git commit "Fifth commit from sufiyan"
+  128  git commit -m "Fifth commit from sufiyan"
+  129  git push
+  130  ls
+  131  vi .gitignore
+  132  git add .
+  133  git commit "gitignore"
+  134  git commit -m "gitignore"
+  135  touch new.json dir.txt
+  136  cat >new.json
+  137  cat >dir.txt
+  138  ls
+  139  git add .
+  140  git commit -m "Ignore file"
+  141  git status
+  142  git push
+  143  cat >>myfile
+  144  git status
+  145  git add .
+  146  git commit -m "c"
+  147  git push 
+  148  git pull
+  149  vi myfile
+  150  mv myfile myfile1
+  151  git pull
+  152  git add .
+  153  git show
+  154  git push 
+  155  git pull
+  156  git push 
+  157  git -version
+  158  git --version
+  159  git remote remove origin 
+  160  ls
+  161  git remote add wm https://github.com/qsufiyan/Solapur.git
+  162  git remote -v
+  163  git show 
+  164  git add .
+  165  git commit -m "First"
+  166  git push wm master 
+  167  cat >ghuu
+  168  ls
+  169  git show 
+  170  git status
+  171  git add .
+  172  git commit -m "second"
+  173  git push wm master
+  174  git config credential.helper cache
+  175  git push wm master 
+  176  git status 
+  177  cat null
+  178  touch null
+  179  ls
+  180  git status 
+  181  git add .
+  182  git commit -m "NUll"
+  183  git push wm master 
+  184  cat null
+  185  git pull wm master 
+  186  cat null
+  187  vi sh 
+  188  sh sh >output 
+  189  cat output
+  190  ls
+  191  git status
+  192  git add .
+  193  git status
+  194  git reset
+  195  git status
+  196  mv output output.java
+  197  ls
+  198  git add *java .
+  199  git status
+  200  git reset
+  201  git status
+  202  git add *java.
+  203  git add*java .
+  204  git add *java .
+  205  git 
+  206  git status 
+  207  git commit -m "Output"
+  208  git push wm master 
+  209  git remote show origin 
+  210  git remote show wm
+  211  git log
+  212  touch hi
+  213  git commit -m "Hi"
+  214  git log
+  215  git add .
+  216  git log
+  217  git commit -m "j"
+  218  git log
+  219  git show 9686f87bce27db7fc4e3aea9af0e5e9c93f9f14f 
+  220  git log 
+  221  git show a4bcf6161e985a35c63de9db6785b4c0927b4aab
+  222  git log 
+  223  git push wm master 
+  224  git log 
+  225  touch h1 h2
+  226  git status 
+  227  git add .
+  228  git status 
+  229  git reset h1
+  230  git status 
+  231  git reset .
+  232  ls
+  233  git status 
+  234  touch h3
+  235  ls
+  236  git status 
+  237  git add h1 .
+  238  git status 
+  239  git reset h1 h2
+  240  git status 
+  241  git add h1 
+  242  git status 
+  243  git reset 
+  244  git status 
+  245  git add h2
+  246  git status 
+  247  git reset 
+  248  git status 
+  249  git add .
+  250  git status 
+  251  git commit -m "Specific commits" hi
+  252  git status 
+  253  git log -1
+  254  git commit -m "H" -n h1
+  255  git log -1
+  256  git revert h1
+  257  git log -1
+  258  git log
+  259  clear 
+  260  git revert 
+  261  man git revert 
+  262  git log 
+  263  git -1
+  264  git log -1
+  265  git revert 5250a4616ae1d230640953fd45e956941de42e9b
+  266  git log -1
+  267  git status 
+  268  git reset 
+  269  git status 
+  270  touch hello 
+  271  git status 
+  272  git add .
+  273  git status 
+  274  git commit -m "Final" hello 
+  275  git log -1
+  276  git commit -m "hello there" hi h2
+  277  git status 
+  278  touch sufiyan ifran 
+  279  ls
+  280  git status 
+  281  git add .
+  282  git status 
+  283  git commit -m "Bye" -n ifran 
+  284  git log -1
+  285  ls\
+  286  git status 
+  287  git commit -m "fuck"
+  288  git push wm master 
+  289  git log -1
+  290  git revert d366f486d255e05483b49b8183af7c2df8700843
+  291  git revert -m "Mistakenly Commited" d366f486d255e05483b49b8183af7c2df8700843
+  292  git revert -m "Mistakenly Commited" d366f486d255e05*
+  293  git revert d366f486d255e05483b49b8183af7c2df8700843
+  294  git log -1
+  295  git revert 212e6272da8b57cb83b17f8247dd2a310c779b21
+  296  git status
+  297  git push wm master 
+  298  git log -1
+  299  git revert 9946f8ab9ae0a50e17b41029
+  300  git push wm master 
+  301  git log 
+  302  git revert 53078d54a1424485aaaeef0a5207e81
+  303  git push wm master 
+  304  git log 
+  305  man git revert 
+  306  git revert .
+  307  git touch afzan zaveriya 
+  308  touch afzan zaveriya 
+  309  ls
+  310  git status 
+  311  git clean -n
+  312  git clean -f
+  313  ls
+  314  git status 
+  315  git clean -n
+  316  touch newfile
+  317  git commit -a -m "Hello"
+  318  git add .
+  319  git commit -m "Hello"
+  320  git push wm master 
+  321  git log -1
+  322  git push wm master -f
+  323  git push wm master 
+  324  history >history 
+  325  vi history 
+  326  wc -l history 
+  327  ls
+  328  git status 
+  329  vi .gitignore
+  330  git status 
+  331  touch ig1 ig2 ig3
+  332  git status 
+  333  vi .gitignore
+  334  git status 
+  335  git add .
+  336  git status
+  337  git commit -m "gitignore test"
+  338  git push wm master 
+  339  ls
+  340  touch sufiyan ifran afzan 
+  341  git status 
+  342  vi .gitignore
+  343  ls
+  344  git add ,
+  345  git add .
+  346  git commit "Ignoretest2"
+  347  git commit -m "Ignoretest2"
+  348  git push wm master 
+  349  git push mw master 
+  350  git barnch 
+  351  git branch branch1
+  352  git branch 
+  353  touch branch1
+  354  git status
+  355  git add .
+  356  git commit -m "branch" 
+  357  git push wm branch1
+  358  git log -1
+  359  git show 8f4304f23e24bfd1465b3998c277da68310
+  360  git push wm branch1
+  361  touch fuckfileinfo
+  362  git add .
+  363  git commit -m "uyg" 
+  364  git push wm branch1 
+  365  git log
+  366  git branch 
+  367  git branch -r
+  368  git checkout branch1
+  369  ls
+  370  git branch 
+  371  touch touch 
+  372  ls
+  373  git status 
+  374  git add .
+  375  git commit -m "jdhb"
+  376  git checkout master 
+  377  ls
+  378  cat touch 
+  379  git checkout branch1
+  380  cat touch 
+  381  git push wm branch1
+  382  git log
+  383  git branch 
+  384  ls
+  385  rm afzan    ghuu  h2     hi       ifran  ig2  myfile1  new.json  output.java  sufiyan
+  386  dir.txt  h1    hello  history  ig1    ig3  newfile  null      sh           touch
+  387  ls
+  388  rm dir.txt  h1  hello  history  ig1  ig3  newfile  null  sh  touch
+  389  ls
+  390  ls -l
+  391  ls -la
+  392  git push -wm branch1
+  393  git push wm branch1
+  394  git add .
+  395  git commit -m "empty"
+  396  git push wm branch1
+  397  git branch master 
+  398  git checkout master
+  399  ls
+  400  rm ghuu
+  401  git add .
+  402  git commit -m "Delete"
+  403  git push wm master 
+  404  ls
+  405  cd git_practice
+  406  ls
+  407  rm .
+  408  rm -a
+  409  clear 
+  410  ls
+  411  rm branch1  fuckfileinfo  h2     hi   myfile1  new.json  output.java
+  412  dir.txt  h1            hello  ig3  newfile  null      sh
+  413  ls
+  414  rm dir.txt  h1  hello  ig3  newfile  null  sh
+  415  ls
+  416  ls -al 
+  417  ls
+  418  git add .
+  419  git commit -m "Emptying"
+  420  git push wm master 
+  421  git remote 
+  422  cat file
+  423  cat >>file
+  424  ls
+  425  cat file
+  426  cat >file
+  427  ls 
+  428  git add file
+  429  git commit -m "BeforeMerge" file
+  430  git push wm master 
+  431  git log 
+  432  git log -1
+  433  git show f33ec712f581c1be9c645027
+  434  git checkout master 
+  435  which branch 
+  436  git branch 
+  437  git merge branch1
+  438  git log -1
+  439  git branch
+  440  git push wm master 
+  441  git branch 
+  442  git merge branch1
+  443  git pull wm master 
+  444  git checkout branch1
+  445  git pull wm branch1
+  446  ls
+  447  cat file
+  448  ls
+  449  git checkout master 
+  450  git diff
+  451  git diff branch1
+  452  git merge branch1
+  453  vi file
+  454  git merge branch1
+  455  vi file
+  456  git merge branch1
+  457  git diff branch1
+  458  git status
+  459  git add .
+  460  git commit "hgf" 
+  461  git commit -m "hgf" 
+  462  git pull wm master 
+  463  ls
+  464  cat file
+  465  git commit -m "gh"
+  466  git status 
+  467  git push wm master 
+  468  ls
+  469  cat file
+  470  ls
+  471  cat file 
+  472  vi file
+  473  ls
+  474  git status 
+  475  rm file 
+  476  git commit -a -m "Ddlte"
+  477  git push wm master 
+  478  ls
+  479  git config --global credential.helper cache
+  480  git branch -d branch1
+  481  git branch
+  482  git checkout branch1
+  483  git branch
+  484  git branch -D branch1
+  485  git checkout master 
+  486  git branch -D branch1
+  487  git branch
+  488  git branch 
+  489  git pull wm master 
+  490  git log -1
+  491  git show f1d039b198f35f16d6fa1510
+  492  git pull wm master 
+  493  git pull wm branch1
+  494  ls
+  495  git push wm :branch1
+  496  ls
+  497  rm file2 touch 
+  498  git add .
+  499  git commit -m "E"
+  500  git push wm master 
+  501  cat >file
+  502  ls
+  503  cat file
+  504  git status 
+  505  git add ,
+  506  git add .
+  507  git commit -m "Shayri"
+  508  git push wm master 
+  509  git pull wm master 
+  510  ls
+  511  cat file 
+  512  ls
+  513  git status 
+  514  git push wm master 
+  515  git branch mumbai
+  516  git branch 
+  517  git checkout mumbai 
+  518  ls
+  519  cat file 
+  520  vi file 
+  521  ls
+  522  cat file 
+  523  git branch 
+  524  git checkout master 
+  525  git merge mumbai 
+  526  ls
+  527  cat file 
+  528  git push wm master mumbai
+  529  cat file 
+  530  git status 
+  531  git add .
+  532  git commit -m "Merge"
+  533  git push wm master 
+  534  git checkout mumbai 
+  535  git status 
+  536  git commit -m "EM"
+  537  git push wm mumbai 
+  538  ls
+  539  cat file 
+  540  git checkout master 
+  541  git push wm :mumbai 
+  542  git branch london 
+  543  git checkout london
+  544  ls
+  545  cat file 
+  546  vi file 
+  547  cat file 
+  548  git checkout master 
+  549  git merge london 
+  550  ls
+  551  cat fiel 
+  552  cat file 
+  553  git checkout london 
+  554  vi file 
+  555  git checkout master 
+  556  ls
+  557  cat file
+  558  git branch 
+  559  git checkout mumbai 
+  560  ls
+  561  cat file 
+  562  git checkout master 
+  563  git branch -d mumbai 
+  564  git branch 
+  565  git statu 
+  566  git status
+  567  git add . 
+  568  git commit -m "rand"
+  569  git push wm master 
+  570  git push wm london 
+  571  git checkout london 
+  572  l
+  573  ls
+  574  vi file 
+  575  cat file 
+  576  git status 
+  577  git add .
+  578  git commit -m "Chinalrand"
+  579  git push wm london
+  580  git checkout master 
+  581  git branch 
+  582  ls
+  583  cat file 
+  584  git merge london
+  585  ls
+  586  cat file 
+  587  git status 
+  588  git push wm master 
+  589  history >output
